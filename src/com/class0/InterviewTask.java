@@ -1,5 +1,7 @@
 package com.class0;
 
+import java.util.Scanner;
+
 public class InterviewTask {
 public static void main(String[] args) {
 	
@@ -18,13 +20,25 @@ int a=5;
 int b=10;
 
 a=a+b;
-b=b-a;
+b=a-b; //5
+a=a-b; //10
 
-System.out.println(a);
+System.out.println("before b is : "+b+", a is : "+a);
+System.out.println("after a is : "+a+", b is : "+b);
 
+String sa="Life";
+String sa1="Love";
+System.out.println("before : "+sa+" "+sa1);
 
+sa=sa1.replaceAll("Life", "Love");
+sa1=sa.replaceAll("Love", "Life");
+System.out.println("after : "+sa+ " "+sa1);
 
-
+Scanner inp = new Scanner(System.in);
+System.out.print("In:");
+int x = inp.nextInt();
+//write your code below
+ 
 
 }
 }

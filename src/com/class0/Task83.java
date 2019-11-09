@@ -22,7 +22,7 @@ sum=sum+a[2][i];
 //System.out.println()
 
 //System.out.println();
-  
+
 }}
 		
 		
