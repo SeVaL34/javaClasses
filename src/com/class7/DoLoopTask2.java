@@ -17,7 +17,7 @@ do {
 }while (num1<=7);
 
 //print even numbers from 20 to 50 using do while
-}
+
  
 int even=50;
 do {

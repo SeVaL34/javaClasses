@@ -82,7 +82,7 @@ while (can<=3) {
 	do {
 		System.out.println("pay for candy");
 	can++;
-	
+	}}
 	System.out.println("enjoy your candy");
 	
-	}}}
+	}}

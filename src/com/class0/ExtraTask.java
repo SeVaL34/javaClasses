@@ -22,17 +22,43 @@ public static void main(String[] args) {
           Input=1234
           Output=10 */
 	
+	int num1=12345;
+	int rem;
+	int sum1=0;
 	
-	int b=1,c=2,d=3;
-	int sum=b+c+d;
+	while(num1>0) {
+		rem=num1%10; //5
+		num1/=10;// 1234
+		sum1=sum1+rem;
+		
 	
-	for(int i=0 ; i<sum ; i++) {
-		sum=sum+i;
+	
 	}
+	System.out.println(sum1);
+		
+	/* 3.Write a program to determine  whether given number is Armstrong number or not?
+       “Armstrong number is a number that is equal to the sum of cubes of its digits.”
+       Examples
+       Input=153
+       Output= true
+       Input=155
+       Output=false	*/
 	
-	System.out.println(sum+" ");
-	
-	
+	int num=153;
+	int arm=num;
+	int d;
+	int sum=0;
+	while(num!=0 ) {
+		d=num%10; //3
+		num/=10; //15
+		sum=sum+(d*d*d);
+		
+	}
+	if (arm==sum) {
+		System.out.println(true);
+	}else {
+		System.out.println(false);
+	}
 	
 
 

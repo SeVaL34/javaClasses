@@ -22,14 +22,14 @@ public static void main(String[]args) {
 	System.out.println("number is "+even);
 	System.out.println("number is"+odd);
 
-	Scanner scan = new Scanner(System.in);
+	Scanner scan1 = new Scanner(System.in);
 	System.out.println("Enter start number");
-	int firstNumber = scan.nextInt();
+	int firstNumber = scan1.nextInt();
 	System.out.println("Enter ending number");
-	int secondNumber = scan.nextInt();
+	int secondNumber = scan1.nextInt();
 
-	int start = 0;
-	int end = 0;
+	int start1 = 0;
+	int end1 = 0;
 
 	if (firstNumber < secondNumber) {
 		start = firstNumber;
@@ -38,8 +38,8 @@ public static void main(String[]args) {
 		start = secondNumber;
 		end = firstNumber;
 	}
-	int even = 0;
-	int odd = 0;
+	int even1 = 0;
+	int odd1 = 0;
 
 	for (int i = start; i <= end; i++) {
 		if (i % 2 == 0) {
@@ -50,7 +50,7 @@ public static void main(String[]args) {
 	}
 	System.out.println("The sum of even numbers is " + even);
 	System.out.println("The sum of odd numbers is " + odd);
-	}}
+	}
 
 
 	Scanner scan = new Scanner(System.in);
@@ -75,7 +75,7 @@ public static void main(String[]args) {
 		
 	} else {//if 1num >2num 
 		System.out.println("Please enter start# less then end number");
-	}}}
+	}}
 
 
 
@@ -88,4 +88,4 @@ public static void main(String[]args) {
 		
 
 
-}}
+}

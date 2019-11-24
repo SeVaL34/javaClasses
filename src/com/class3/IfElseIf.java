@@ -40,12 +40,5 @@ public class IfElseIf {
 
 //cntl+shif+f--> for windows and command+shift+f-->for mac (duzenlemek icin)
 
-int number=2;
 
-if (number>0) {
-	System.out.println(number+ "is a positive number");
-}else {
-    System.out.println(number+ "is a negative number");
 }
-
-}}

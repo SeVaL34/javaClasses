@@ -28,15 +28,15 @@ for (int a=1 ; a<=20 ; a++) {
     		 System.out.println("bigger");
     	 }
      
-     Scanner scan;
+     Scanner scan1;
 		int secretNumber, guessNumber;
 
-		scan = new Scanner(System.in);
+		scan1 = new Scanner(System.in);
 		secretNumber = 12;
 		// for (int i=0; i<20; i++) -> you are limiting user to 20 inputs
 		do {
 			System.out.println("Please guess my number from 1 to 20");
-			guessNumber = scan.nextInt();
+			guessNumber = scan1.nextInt();
 
 			if (guessNumber < secretNumber) {
 				System.out.println("Your number is too small");
@@ -51,7 +51,7 @@ for (int a=1 ; a<=20 ; a++) {
 
 
 
-}}}    
+}}   
 
 
 

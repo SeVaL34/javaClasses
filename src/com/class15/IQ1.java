@@ -22,5 +22,4 @@ public static void main(String[] args) {
 	 System.out.println("The value of str2="+str2);
 }
 }
-}
-}
+
